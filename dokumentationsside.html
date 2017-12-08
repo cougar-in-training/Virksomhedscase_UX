@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layout.css">
+    <title>Republikken</title>
+</head>
+
+<body>
+    <header>
+        <div class="bar_container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <nav>
+            <a href="#brugerinterviews"></a>
+            <a href="#datakodning"></a>
+            <a href="#experience_map"></a>
+            <a href="#persona"></a>
+            <a href="#research_på_markedet"></a>
+            <a href="#business_model_canvas"></a>
+            <a href="#papirprototyper"></a>
+            <a href="#storyboards"></a>
+            <a href="#aktiviteter_og_features"></a>
+            <a href="#benchmarking"></a>
+            <a href="#appdesign"></a>
+            <a href="#adobe_xd_prototype"></a>
+            <a href="#ikon"></a>
+            <a href="#styletile"></a>
+            <a href="#moodboards"></a>
+            <a href="#daily_scrum"></a>
+        </nav>
+
+        <a href="pr%C3%A6sentationsside.html" id="link_til_pitch">Pitch</a>
+
+    </header>
+
+    <section id="brugerinterviews"></section>
+    <section id="experience_map"></section>
+    <section id="persona"></section>
+    <section id="competition"></section>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<script>
+    function myFunction(x) {
+        x.classList.toggle("change");
+    }
+
+    function myFunction2() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.bar_container')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script></html>
