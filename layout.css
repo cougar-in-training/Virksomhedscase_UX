@@ -3,7 +3,8 @@
     padding: 0;
 }
 
-section {
+section #experience_map,
+#benchmarking {
     max-width: 1280px;
 }
 
