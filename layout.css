@@ -59,6 +59,7 @@ header {
 .dropdown {
     position: relative;
     display: inline-block;
+
 }
 
 .dropdown-content {
@@ -106,3 +107,61 @@ a {
 }
 
 /* font SLUT */
+
+/* FORSIDE billede */
+
+#forside {
+    background-image: url(img/forside.JPG);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 650px;
+    position: relative;
+
+}
+
+/* BRUGER INTERVIEW AFJHSAF */
+
+#interviews {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+#tekst_klaus {
+    background-color: antiquewhite;
+    width: 50%;
+}
+
+#tekst_karin {
+    background-color: aquamarine;
+    width: 50%;
+}
+
+/*                      BRUGERINTERWIEVS SLUT*/
+
+/*                      EXPERIENCE MAP */
+
+#blabla {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#tekst_map {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+#billede_2 {
+    background-color: aqua;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+#billede_3 {
+    background-color: chartreuse;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
