@@ -197,7 +197,7 @@ a {
 
 /*                      EXPERIENCE MAP */
 
-#blabla {
+#experience {
     display: flex;
     flex-wrap: wrap;
 
@@ -219,3 +219,83 @@ a {
     flex-basis: 300px;
     flex-grow: 1;
 }
+
+/*                      Experience map SLUT*/
+
+/*                      Persona */
+
+#persona_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#persona_tekst {
+    width: 50%;
+    height: 500px;
+}
+
+#persona_billede {
+    background-image: url(img/Esben.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50%;
+    height: 500px;
+}
+
+/*                      Persona SLUT*/
+
+/*                      Research på markedet*/
+
+#research_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+/*                      Research SLUT*/
+
+/*                      business model*/
+
+#business_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#business_tekst {
+    width: 50%;
+    height: 500px;
+
+}
+
+#business_billede {
+    background-image: url(img/model_canvas.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50%;
+    height: 500px;
+}
+
+/*                      business model SLUT */
+
+/*                      Papir prototyper*/
+
+#papir_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#papir_billede1 {
+    background-color: blue;
+    width: 50%;
+    height: 200px;
+
+}
+
+#papir_billede2 {
+    background-color: yellow;
+    width: 50%;
+    height: 200px;
+
+}
+
+/*                  Papir prototyper SLUT*/
