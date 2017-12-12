@@ -2,6 +2,10 @@
 
     function myFunction() {
         document.getElementById("myDropdown").classList.toggle("show");
+        $(".bar1").addClass("change1");
+        $(".bar2").addClass("change2");
+        $(".bar3").addClass("change3");
+
     }
 
 
@@ -15,11 +19,10 @@
                 var openDropdown = dropdowns[i];
                 if (openDropdown.classList.contains('show')) {
                     openDropdown.classList.remove('show');
+                    $(".bar1").removeClass("change1");
+                    $(".bar2").removeClass("change2");
+                    $(".bar3").removeClass("change3");
                 }
             }
         }
-    }
-
-    function myFunction1(x) {
-        x.classList.toggle("change");
     }

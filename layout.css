@@ -27,6 +27,8 @@ header {
     margin: 6px;
 }
 
+/* burger menu */
+
 .bar_container {
     display: inline-block;
     cursor: pointer;
@@ -42,21 +44,21 @@ header {
     transition: 0.4s;
 }
 
-/*
-.change_bar1 {
+
+.change1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
 }
 
-.change_bar2 {
+.change2 {
     opacity: 0;
 }
 
-.change_bar3 {
+.change3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
 }
-*/
+
 
 .dropbtn {
     background-color: #4CAF50;
@@ -107,6 +109,7 @@ header {
     display: block;
 }
 
+/* burger menu SLUT */
 
 /* header SLUT */
 
