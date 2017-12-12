@@ -1,6 +1,7 @@
     $(".dropbtn").on("click", myFunction);
 
     function myFunction() {
+
         document.getElementById("myDropdown").classList.toggle("show");
         $(".bar1").addClass("change1");
         $(".bar2").addClass("change2");
