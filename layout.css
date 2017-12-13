@@ -129,7 +129,7 @@ header {
     top: 51px;
     left: 9vw;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 300px;
     max-height: 600px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -237,7 +237,7 @@ li {
 /* FORSIDE billede */
 
 #forside {
-    background-image: url(img/forside.JPG);
+    background-image: url(img/forside.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100vw;
@@ -380,7 +380,7 @@ audio {
     height: 240px;
     background-image: url(img/paper_prototype/first_edition.JPG);
     background-size: cover;
-    margin: 0 auto;
+    margin: 0 auto 50px;
 
 }
 
