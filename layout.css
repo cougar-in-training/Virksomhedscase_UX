@@ -412,13 +412,20 @@ audio {
 
 /* storyboards */
 
+#story_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .story_billede1 {
     width: 300px;
     height: 400px;
     background-image: url(img/storyboard/storyboard.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    transform: rotate(90deg);
+    margin: 10px auto;
+    flex-basis: 300px;
+    align-self: center;
 }
 
 .story_billede2 {
@@ -427,7 +434,10 @@ audio {
     background-image: url(img/storyboard/storyboard-2.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    transform: rotate(90deg);
+    margin: 10px auto;
+    flex-basis: 300px;
+    align-self: center;
+
 }
 
 .story_billede3 {
@@ -436,7 +446,10 @@ audio {
     background-image: url(img/storyboard/storyboard-3.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    transform: rotate(90deg);
+    margin: 10px auto;
+    flex-basis: 300px;
+    align-self: center;
+
 }
 
 /* storyboards SLUT */
