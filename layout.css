@@ -202,6 +202,7 @@ a {
     margin: 20px auto 40px;
 }
 
+#storyboards p,
 #member_survey p {
     text-align: center;
 }
@@ -279,7 +280,6 @@ audio {
 #persona_container {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
 }
 
 #persona_tekst {
@@ -290,16 +290,16 @@ audio {
 #persona_billede {
     background-image: url(img/Esben.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: contain;
     width: 300px;
     height: 300px;
-    margin: 0 auto;
+    align-self: center;
+    margin: 10px auto;
 }
-
-@media screen max-width() {}
 
 #persona p {
     padding: 20px;
+    margin: 30px;
 }
 
 /*                      Persona SLUT*/
@@ -317,23 +317,34 @@ audio {
 /*                      business model*/
 
 #business_container {
-    display: flex;
+    display: ;
     flex-wrap: wrap;
 }
 
 #business_tekst {
-    width: 50%;
-    height: 500px;
-
+    flex-basis: 300px;
+    flex-grow: 1;
 }
 
 #business_billede {
     background-image: url(img/model_canvas.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    width: 50%;
-    height: 500px;
+    background-size: contain;
+    width: 60vw;
+    height: 45vw;
+    margin: 40px auto;
 }
+
+#business_model_canvas p + p {
+    padding: 0px;
+    margin: 0;
+}
+
+#business_model_canvas p {
+    padding: 0px;
+    margin: 0;
+}
+
 
 /*                      business model SLUT */
 
@@ -398,3 +409,34 @@ audio {
 
 
 /*                  App Design SLUT*/
+
+/* storyboards */
+
+.story_billede1 {
+    width: 300px;
+    height: 400px;
+    background-image: url(img/storyboard/storyboard.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+}
+
+.story_billede2 {
+    width: 300px;
+    height: 400px;
+    background-image: url(img/storyboard/storyboard-2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+}
+
+.story_billede3 {
+    width: 300px;
+    height: 400px;
+    background-image: url(img/storyboard/storyboard-3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+}
+
+/* storyboards SLUT */
